@@ -1,0 +1,42 @@
+.center-form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-top:40px;
+}
+.center-form Form{
+    max-width: 500px;
+    width:100%;
+    padding:20px;
+    border :2px solid #ccc;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:0px 0px 5px black;
+   
+}
+.center-form Form Label{
+   font-weight: bold;
+   justify-items: center;
+}
+.center-form Form .form-control{
+    margin-bottom:20px;
+    padding:10px;
+}
+
+.center-form Form .btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    .center-form {
+        width: 90%;
+    }
+}
